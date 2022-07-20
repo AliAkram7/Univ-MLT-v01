@@ -8,6 +8,7 @@ body {
     background-color: #292b2c;
 }
 html {
+    min-width: 556px;
     height: 100vh   ;
     scroll-behavior: smooth;
 }
@@ -196,6 +197,11 @@ header .navbar #search {
     align-items: center;
 }
 @media(max-width: 768px){
+    .hero-section .container .flex {
+        position: absolute;
+        top: 0;
+        margin-top: 89.75px;
+    }
     .hero-section .container .flex .card img {
         display: none;
     }
